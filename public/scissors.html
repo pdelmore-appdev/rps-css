@@ -9,41 +9,59 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <div>
-    <a href="/rock">
-      Play Rock
-    </a>
+
+  <div class="container">
+    <div class="row mb">
+    <div class="one-third">
+      <a class="button" href="/rock">
+        Play Rock
+      </a>
+    </div>
+  
+    <div class="one-third">
+      <a class="button" href="/paper">
+        Play Paper
+      </a>
+    </div>
+  
+    <div class="one-third">
+      <a class="button" href="/scissors">
+        Play Scissors
+      </a>
+    </div>
+    </div>
+  
+  <div class="row centered mb">
+    <div class="player-card">
+    <h2 style="color: green;">
+      We played scissors!
+    </h2>
   </div>
-
-  <div>
-    <a href="/paper">
-      Play Paper
-    </a>
+  
+  <div class="computer-card">
+    <h2 style="color: orange;">
+      They played paper!
+    </h2>
   </div>
-
-  <div>
-    <a href="/scissors">
-      Play Scissors
-    </a>
   </div>
-
-  <h2>
-    We played scissors!
-  </h2>
-
-  <h2>
-    They played paper!
-  </h2>
-
-  <h2>
-    We won!
-  </h2>
-
-  <a href="/">
-    Rules
-  </a>
+  
+  <div class="row-center mb centered">
+    <div class="outcome-card">
+    <h2>
+      We won!
+    </h2>
+    </div>
+  </div>
+  
+  <div class="row-center mb centered">
+    <a href="/">
+      Rules
+    </a>
+    </div>
+  </div>
 </body>
 </html>
