@@ -7,6 +7,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.mb {
+  margin-bottom: 10px;
+}
+
 .button { 
 color: teal; 
 border: 1px teal solid; 
