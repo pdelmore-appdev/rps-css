@@ -9,26 +9,33 @@
   <style>
     * {
       border: thin red dashed;
+      box-sizing: border-box;
     }
 
   a { 
     color: teal; border: 1px teal solid; padding: 5px 15px 5px 15px; border-radius: 5px; text-decoration: none; 
   }
 
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .player-card {
     border: thin green solid;
-    width: 30%
+    width: 49%
   }
 
   .computer-card {
     border: thin red solid;
-    width: 30%
+    width: 49%
   }
 
   </style>
 </head>
 
 <body>
+  <div class="row">
   <div>
     <a class="button" href="/rock">
       Play Rock
@@ -46,8 +53,9 @@
       Play Scissors
     </a>
   </div>
+  </div>
 
-<div>
+<div class="row">
   <div class="player-card">
   <h2 style="color: green;">
     We played rock!
