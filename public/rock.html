@@ -12,8 +12,16 @@
       box-sizing: border-box;
     }
 
-  a { 
-    color: teal; border: 1px teal solid; padding: 5px 15px 5px 15px; border-radius: 5px; text-decoration: none; 
+  .button { 
+    color: teal; 
+    border: 1px teal solid; 
+    padding-top; 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 5px; 
+    text-decoration: none;
+    display: inline-block; 
+    width: 100%;
+    text-align: center;
   }
 
   .row {
@@ -31,24 +39,28 @@
     width: 49%
   }
 
+  .one-third {
+    width: 32%
+  }
+
   </style>
 </head>
 
 <body>
   <div class="row">
-  <div>
+  <div class="one-third">
     <a class="button" href="/rock">
       Play Rock
     </a>
   </div>
 
-  <div>
+  <div class="one-third">
     <a class="button" href="/paper">
       Play Paper
     </a>
   </div>
 
-  <div>
+  <div class="one-third">
     <a class="button" href="/scissors">
       Play Scissors
     </a>
