@@ -1,10 +1,18 @@
 * {
-  border: thin red dashed;
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  width: 960px;
 }
 
 .mb {
