@@ -5,38 +5,67 @@
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
+
+  <style>
+    * {
+      border: thin red dashed;
+    }
+
+  a { 
+    color: teal; border: 1px teal solid; padding: 5px 15px 5px 15px; border-radius: 5px; text-decoration: none; 
+  }
+
+  .player-card {
+    border: thin green solid;
+    width: 30%
+  }
+
+  .computer-card {
+    border: thin red solid;
+    width: 30%
+  }
+
+  </style>
 </head>
 
 <body>
   <div>
-    <a href="/rock" style="color: teal; border: 1px teal solid; padding: 5px 15px 5px 15px; border-radius: 5px; text-decoration: none;">
+    <a class="button" href="/rock">
       Play Rock
     </a>
   </div>
 
   <div>
-    <a href="/paper" style="color: teal; border: 1px teal solid; padding: 5px 15px 5px 15px; border-radius: 5px; text-decoration: none;">
+    <a class="button" href="/paper">
       Play Paper
     </a>
   </div>
 
   <div>
-    <a href="/scissors" style="color: teal; border: 1px teal solid; padding: 5px 15px 5px 15px; border-radius: 5px; text-decoration: none;">
+    <a class="button" href="/scissors">
       Play Scissors
     </a>
   </div>
 
+<div>
+  <div class="player-card">
   <h2 style="color: green;">
     We played rock!
   </h2>
+</div>
 
+<div class="computer-card">
   <h2 style="color: orange;">
     They played paper!
   </h2>
+</div>
+</div>
 
+<div class="score">
   <h2 style="color: red;">
     We lost!
   </h2>
+</div>
 
   <a href="/">
     Rules
